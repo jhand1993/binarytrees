@@ -1,0 +1,2 @@
+struct Node;
+class BinaryTree;
