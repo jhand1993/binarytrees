@@ -58,7 +58,7 @@ class BinaryTree{
                         p = parent->lp;
                     }
                 }
-                // 
+                // Point either right or left pointer of parent node to new_node.
                 if (parent->lp != nullptr) {
                     parent->rp = new_node;
                 }
